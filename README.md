@@ -30,4 +30,6 @@ Loe ejemplos son:
 - Repetir string n veces.
 - Invertir string.
 - if in grupo.
-
+- Cara o ceca.
+- Combinar una lista de strings en un solo string.
+- Encontrar anagramas.
