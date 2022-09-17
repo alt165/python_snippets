@@ -24,3 +24,10 @@ Para utilizar este metodo hay que importar **timeit**.
 ### Pyhton shorthand
 En este archivo hay atajos simples con algunas particularidades de python que permiten resolver
 de una forma distinta problemas comunes de programacion.
+Loe ejemplos son:
+- Intercambiar valores.
+- Encadenar comparadores.
+- Repetir string n veces.
+- Invertir string.
+- if in grupo.
+
