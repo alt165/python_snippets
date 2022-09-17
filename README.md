@@ -33,3 +33,7 @@ Loe ejemplos son:
 - Cara o ceca.
 - Combinar una lista de strings en un solo string.
 - Encontrar anagramas.
+- Transponer matriz.
+- Contar elementos de una lista.
+- Crear lista con elementos con característica en común.
+- Eliminar duplicados de una lista.

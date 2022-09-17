@@ -67,3 +67,46 @@ def es_anagrama(string1, string2):
 print(es_anagrama("asdfg", "gdasf"))
 print(es_anagrama("asdfg", "qwert"))
 
+""" Transponer una matriz """
+matriz = [[1, 2, 3], [4, 5, 6]]
+print("Matriz original")
+for fila in matriz:
+    print(fila)
+
+#transpose in a single line
+matriz_transpuesta = zip(*matriz)
+
+print("Matriz transpuesta")
+for fila in matriz_transpuesta:
+    print(list(fila))
+
+""" Convertir dos listas en un diccionario """
+def listas_a_diccionario(claves, valores):
+    return dict(zip(claves, valores))
+
+lista1 = [1, 2, 3, 4]
+lista2 = ["uno", "dos", "tres", "cuatro"]
+
+print(listas_a_diccionario(lista1, lista2))
+
+""" Contar elementos de una lista """
+lista = ["a", "a", "a", "b", "b", "c"]
+print(Counter(lista))
+lista="aaasedaea"
+print(Counter(lista))
+
+""" Es posible crear listas en las que los elementos
+se agregan solo si cumplen una condicion """
+# Lista con los primeros numeros impares entre 1 y 10
+lista_impar = [numero for numero in range(10) if numero%2 != 0]
+
+# Lista con los numeros elevados al cuadrado
+lista_cuadrados = [numero * numero for numero in range(10)]
+
+print("Los numeros impares son:", lista_impar)
+print("Los diez primeros cuadrados son:", lista_cuadrados)
+
+""" Eliminar duplicados de una lista """
+lista = "aadeeedfae"
+lista = list(set(lista))
+print(lista)
