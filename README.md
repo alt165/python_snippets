@@ -18,3 +18,9 @@ Parametros:
 - number: Esta es la cantidad de veces que se ejecutará el código. el valor por defecto es 1000000.
 
 Para utilizar este metodo hay que importar **timeit**.
+
+---
+
+### Pyhton shorthand
+En este archivo hay atajos simples con algunas particularidades de python que permiten resolver
+de una forma distinta problemas comunes de programacion.
